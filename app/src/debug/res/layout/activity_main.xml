@@ -7,11 +7,10 @@
     tools:context="com.example.eireog.dkdubbikes.MainActivity">
 
     <Button
-        android:id="@+id/toMap"
+        android:id="@+id/Map"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="toMap"
-        android:text="Map View"
+        android:text="Button"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="148dp" />
 
@@ -20,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="toList"
-        android:text="Station View"
+        android:text="Button"
         android:visibility="visible"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="261dp" />
