@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eireog.dkdubbikes.MainActivity">
+
+    <Button
+        android:id="@+id/toMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toMap"
+        android:text="Map View"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/toList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toList"
+        android:text="Station View"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="261dp" />
+</android.support.constraint.ConstraintLayout>
